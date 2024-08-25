@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tea-house-with-tailwind
+    </title>
     <!--tailwind cdn-->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -27,14 +28,42 @@
 <body>
     <!--header section-->
     <header>
-
+    
     </header>
 
     <!--main section-->
-    <main>
-
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28 my-16">
+        <!--banner section-->
+        <section class="flex">
+            <!--text content-->
+             <div>
+                <h1 class="text-5xl md:text-7xl md:font-extrabold">It's good <br> tea time at The <br> Tea House</h1>
+                <br>
+                <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <br>
+                <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+             </div>
+             <!--image content-->
+             <div class="relative">
+                <!-- image -->
+                <div>
+                    <img class="w-full" src="images/banner.png" alt="">
+                </div>
+                <!-- card -->
+                <div class="flex absolute top-28 lg:top-80 md:left=32 lg:left-24 items-center gap-2 bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg">
+                    <!-- icon -->
+                     <div>
+                        <i class="fa-solid fa-star text-[#FFDC64] text-2xl"></i>
+                     </div>
+                     <div class="ml-2">
+                        <h3 class="lg:text-2xl font-extrabold">5.00</h3>
+                        <p class="text-gray-500 ">Trust Pilot Ratings</p>
+                     </div>
+                </div>
+             </div>
+        </section>
     </main>
-    
+
     <!--footer section-->
     <footer>
 
